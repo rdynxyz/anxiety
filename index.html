@@ -9,6 +9,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./src/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./src/css/owl.theme.default.min.css">
 
     <!-- FONTS -->
     <link
@@ -247,14 +249,12 @@
     </div>
 
     <div class="w-full bg-secondary flex justify-center p-9 mt-16">
-      <!-- <a class="cursor-pointer">
-          <i class="fa-solid fa-chevron-left text-[50px] text-third"></i>
-        </a> -->
-      <img src="./src/assets/images/ui/ui9e.jpg" class="w-2/3 rounded-2xl" />
-      <!-- <a class="cursor-pointer">
-          <i class="fa-solid fa-chevron-right text-[50px] text-third"></i>
-        </a> -->
+      <div class="owl-carousel owl-theme bg-slate-100">
+        <div class="item"><img src="./src/assets/images/ui/ui1.jpg"></div>
+        <div class="item"><img src="./src/assets/images/ui/ui2.jpg"></div>
+      </div>
     </div>
+
 
     <div
       class="container flex flex-col items-center mx-auto px-4 lg:max-w-7xl mt-16" id="keunggulan-section"
@@ -486,6 +486,9 @@
 
     </div>
 
+    <!-- JavaScript -->
+    <script src="./src/js/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
   </body>
 </html>
